@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="YOU"
+        android:textAlignment="textStart"
+        android:textColor="#FF9033"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="0"
+        android:textAlignment="textStart"
+        android:textColor="#FF9033"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text=":"
+        android:textAlignment="textStart"
+        android:textColor="#FF9033"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="0"
+        android:textAlignment="textStart"
+        android:textColor="#FF9033"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="CPU"
+        android:textAlignment="textStart"
+        android:textColor="#FF9033"
+        android:textSize="40sp" />
+</LinearLayout>
