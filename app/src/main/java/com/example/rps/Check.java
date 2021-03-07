@@ -6,7 +6,7 @@ public class Check {
          String cpu = "";
          int rand = (int) (Math.random() * 3);
          System.out.println(rand);
-         cpu = rand == 0 ? "Rock" : rand == 1 ? "Paper" : "Scissors";
+         cpu = rand == 0 ? "Rock" : (rand == 1 ? "Paper" : "Scissors");
          if (cpu.equals(player)) {
              return "Draw";
          }

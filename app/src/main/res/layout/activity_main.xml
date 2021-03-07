@@ -48,7 +48,8 @@
             android:text=""
             android:textSize="40sp"
             android:textColor="#FF9033"
-            android:layout_marginTop="110dp"></TextView>
+            android:layout_marginTop="110dp">
+        </TextView>
 
     </LinearLayout>
 
