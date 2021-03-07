@@ -19,7 +19,7 @@ public class Check {
          else if((player.equals("Rock") && cpu.equals("Paper") ||
                  player.equals("Paper") && cpu.equals("Scissors") ||
                  player.equals("Scissors") && cpu.equals("Rock"))){
-             outcome =  "Victory";
+             outcome =  "Defeat";
          }
          return outcome;
 
